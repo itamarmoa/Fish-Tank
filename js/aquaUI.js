@@ -11,7 +11,7 @@ aqua.ui = {
     $meter_poop : document.querySelector("#meter_poop"),
     $meter_food : document.querySelector("#meter_food"),
 
-    updateStats: function (fishes, cleaners, food, poop){
+    updateStats: function (fishes, food, poop){
         this.$stat_fishes.textContent = fishes;
 
         this.$meter_food.textContent = Math.floor(food / 10) +"%";
