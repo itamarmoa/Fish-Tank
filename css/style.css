@@ -1,25 +1,19 @@
+body {
+    background:url('https://images.designtrends.com/wp-content/uploads/2016/04/06093951/Sea-Water-wallpaper-Background.jpg')  no-repeat center center fixed;
+}
 #tank_container{
-    width: 900px;
-    height: 700px;
-    background: lightgrey;
+width: 900px;
+height: 700px;
+background: lightgrey;
 }
 #tank{
-    background: url("../images/ground.png") center bottom / contain no-repeat rgb(189, 254, 255);
+background: url("../images/ground.png") center bottom / contain no-repeat rgb(189, 254, 255);
 }
 #tank-mask{
-    background: #D4E901;
-}
-.container{
-    width:950px;
-}
-body {
-    background:url('/assets/example/bg_suburb.jpg')  no-repeat center center fixed;
+background: #D4E901;
 }
 .modal-dialog{
     min-width: 935px;
-}
-.modal-footer {
-    border-top: 0px;
 }
 .progress{
     margin-bottom: 5px !important;
