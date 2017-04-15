@@ -33,13 +33,17 @@ aqua.Fish = function (id) {
         tank.appendChild(this.fishEl);
     };
     this.swim = function (fishEl){
+        // Condition to keep the fish in tank
         if(this.positionX >= (aqua.tank.width - (this.width*1.2)) || this.positionX <= (this.width /2)) {
             this.dir = this.dir * -1;
         }
+        // Changing position
         this.positionX += (this.dir * this.swimStep);
+
+        // Update position
         this.fishEl.style.left = (this.positionX + "px");
 
-        // Pooping
+        // Pooping if it's not full
         if(aqua.tank.poop < 1000){
             aqua.tank.poop += getRandom(0, 2);
         }
