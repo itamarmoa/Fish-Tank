@@ -1,0 +1,26 @@
+#tank_container{
+    width: 900px;
+    height: 700px;
+    background: lightgrey;
+}
+#tank{
+    background: url("../images/ground.png") center bottom / contain no-repeat rgb(189, 254, 255);
+}
+#tank-mask{
+    background: #D4E901;
+}
+.container{
+    width:950px;
+}
+body {
+    background:url('/assets/example/bg_suburb.jpg')  no-repeat center center fixed;
+}
+.modal-dialog{
+    min-width: 935px;
+}
+.modal-footer {
+    border-top: 0px;
+}
+.progress{
+    margin-bottom: 5px !important;
+}
