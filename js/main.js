@@ -1,7 +1,7 @@
 /**
  * Created by Itamar on 3/29/2017.
  */
-
+// Global Configuration
 var IMG_FOLDER = "images/";
 var $container = document.querySelector("#tank_container");
 

@@ -5,6 +5,7 @@ var aqua = {
     fps: 200,
     isInit: false,
     fishCounter: 0,
+
     init: function(){
         //This should be a public function
         if(this.isInit !== true){
@@ -33,5 +34,5 @@ var aqua = {
         console.log("Fish ID:",fish.id, "created");
 
         aqua.fishCounter ++;
-    },
+    }
 }
