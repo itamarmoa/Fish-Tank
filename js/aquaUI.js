@@ -6,19 +6,17 @@ aqua.ui = {
     $btn_addcleaner : document.querySelector("#btn_addCleaner"),
     $btn_addfood : document.querySelector("#btn_addFood"),
     $stat_fishes : document.querySelector("#stat_fishes"),
-    $stat_cleaners : document.querySelector("#stat_cleaners"),
-    $stat_food : document.querySelector("#stat_food"),
     $meter_poop : document.querySelector("#meter_poop"),
     $meter_food : document.querySelector("#meter_food"),
 
     updateStats: function (fishes, food, poop){
         this.$stat_fishes.textContent = fishes;
 
-        this.$meter_food.textContent = Math.floor(food / 10) +"%";
-        this.$meter_food.style.width = (food / 10)+"%";
+        this.$meter_food.textContent = Math.floor(food) +"%";
+        this.$meter_food.style.width = food+"%";
 
-        this.$meter_poop.textContent = (poop / 10)+"%";
-        this.$meter_poop.style.width = (poop / 10)+"%";
+        this.$meter_poop.textContent = poop +"%";
+        this.$meter_poop.style.width = poop +"%";
     }
 
 };

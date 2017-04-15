@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ac7161f-d635-4d93-9bff-6a521ab20ddf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Tank.js" afterPath="$PROJECT_DIR$/js/Tank.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/aquaUI.js" afterPath="$PROJECT_DIR$/js/aquaUI.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aquaUI.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aquaUI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/aquaUI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="252">
+              <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tank.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tank.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Tank.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="546">
+              <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -143,8 +144,8 @@
         <option value="$PROJECT_DIR$/js/Cleaner.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/Tank.js" />
         <option value="$PROJECT_DIR$/js/aquaUI.js" />
+        <option value="$PROJECT_DIR$/js/Tank.js" />
       </list>
     </option>
   </component>
@@ -325,7 +326,7 @@
       <workItem from="1492245395809" duration="2491000" />
       <workItem from="1492248287640" duration="5866000" />
       <workItem from="1492274162694" duration="14280000" />
-      <workItem from="1492290940321" duration="93000" />
+      <workItem from="1492290940321" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed issue with wrong array">
       <created>1492290993380</created>
@@ -334,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492290993380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed issue with wrong array">
+      <created>1492291038933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492291038933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45232000" />
+    <option name="totallyTimeSpent" value="45458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -838,22 +846,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Tank.js">
+    <entry file="file://$PROJECT_DIR$/js/aquaUI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        <state relative-caret-position="252">
+          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/aquaUI.js">
+    <entry file="file://$PROJECT_DIR$/js/Tank.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="546">
+          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
-            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
