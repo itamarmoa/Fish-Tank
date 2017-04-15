@@ -5,12 +5,8 @@
     <title>Fish Tank</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
 </head>
 <body>
-
-
-
 <div class="show" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -23,10 +19,8 @@
                         <button id="btn_addFood" class="btn btn-default">Add Food</button>
                     </div>
                     <h3>Total Fish: <span id="stat_fishes"></span></h3>
-                    <!--<h2 id="stat_cleaners"></h2>-->
-                    <!--<h2 id="stat_food"></h2>-->
                     <div class="progress">
-                        <div id="meter_food" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                        <div id="meter_food" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
                     </div>
                     <div class="progress">
                         <div id="meter_poop" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
@@ -36,11 +30,11 @@
             <div class="modal-body">
                 <div id="tank_container"></div>
             </div>
-            <div class="modal-footer">
-            </div>
         </div>
     </div>
 </div>
+
+<!--Loading Scripts-->
 <script src="js/aqua.js"></script>
 <script src="js/aquaUI.js"></script>
 <script src="js/Tank.js"></script>
