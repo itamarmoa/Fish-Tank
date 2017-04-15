@@ -44,7 +44,7 @@ aqua.Tank = function ($container){
                 fish.swim();
                 fish.eat(aqua.tank.food);
             }
-            aqua.ui.updateStats(aqua.tank.fishes.length, aqua.tank.cleaners.length, aqua.tank.food, aqua.tank.poop);
+            aqua.ui.updateStats(aqua.tank.fishes.length, aqua.tank.food, aqua.tank.poop);
         }, aqua.fps);
 
         // 2nd Updater for the Poop layer (performance fix)
